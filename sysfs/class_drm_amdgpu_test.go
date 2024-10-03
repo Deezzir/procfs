@@ -45,7 +45,7 @@ func TestClassDRMCardAMDGPUStats(t *testing.T) {
 			MemoryVRAMVendor:              "samsung",
 			PowerDPMForcePerformanceLevel: "manual",
 			UniqueID:                      "0123456789abcdef",
-			HWmonChip:                     "LNXSYBUS:00_PNP0A08:00",
+			HWmonChip:                     "lnxsybus:00_pnp0a10:00",
 		},
 	}
 

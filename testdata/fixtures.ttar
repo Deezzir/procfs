@@ -4480,6 +4480,9 @@ Lines: 1
 MODALIAS=dmi:bvnDellInc.:bvr2.2.4:bd04/12/2021:br2.2:svnDellInc.:pnPowerEdgeR6515:pvr:rvnDellInc.:rn07PXPY:rvrA01:cvnDellInc.:ct23:cvr:
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Directory: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00
+Mode: 755
+# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Directory: fixtures/sys/class/drm
 Mode: 755
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -4487,9 +4490,9 @@ Directory: fixtures/sys/class/drm/card0
 Mode: 755
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Path: fixtures/sys/class/drm/card0/device
-SymlinkTo: ../../../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00
+SymlinkTo: ../../../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/aer_dev_correctable
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/aer_dev_correctable
 Lines: 9
 RxErr 0
 BadTLP 0
@@ -4502,7 +4505,7 @@ HeaderOF 0
 TOTAL_ERR_COR 0
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/aer_dev_fatal
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/aer_dev_fatal
 Lines: 19
 Undefined 0
 DLP 0
@@ -4525,7 +4528,7 @@ PoisonTLPBlocked 0
 TOTAL_ERR_FATAL 0
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/aer_dev_nonfatal
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/aer_dev_nonfatal
 Lines: 19
 Undefined 0
 DLP 0
@@ -4548,177 +4551,177 @@ PoisonTLPBlocked 0
 TOTAL_ERR_NONFATAL 0
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/ari_enabled
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/ari_enabled
 Lines: 1
 0
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/boot_vga
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/boot_vga
 Lines: 1
 1
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/broken_parity_status
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/broken_parity_status
 Lines: 1
 0
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/class
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/class
 Lines: 1
 0x030000
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/consistent_dma_mask_bits
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/consistent_dma_mask_bits
 Lines: 1
 44
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/current_link_speed
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/current_link_speed
 Lines: 1
 8.0 GT/s PCIe
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/current_link_width
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/current_link_width
 Lines: 1
 16
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/d3cold_allowed
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/d3cold_allowed
 Lines: 1
 1
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/device
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/device
 Lines: 1
 0x687f
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/dma_mask_bits
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/dma_mask_bits
 Lines: 1
 44
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/driver_override
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/driver_override
 Lines: 1
 (null)
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/enable
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/enable
 Lines: 1
 1
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/gpu_busy_percent
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/gpu_busy_percent
 Lines: 1
 4
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/irq
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/irq
 Lines: 1
 95
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/local_cpulist
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/local_cpulist
 Lines: 1
 0-15
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/local_cpus
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/local_cpus
 Lines: 1
 0000ffff
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/max_link_speed
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/max_link_speed
 Lines: 1
 8.0 GT/s PCIe
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/max_link_width
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/max_link_width
 Lines: 1
 16
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_gtt_total
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_gtt_total
 Lines: 1
 8573157376
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_gtt_used
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_gtt_used
 Lines: 1
 144560128
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_vis_vram_total
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_vis_vram_total
 Lines: 1
 8573157376
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_vis_vram_used
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_vis_vram_used
 Lines: 1
 1490378752
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_vram_total
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_vram_total
 Lines: 1
 8573157376
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_vram_used
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_vram_used
 Lines: 1
 1490378752
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/mem_info_vram_vendor
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/mem_info_vram_vendor
 Lines: 1
 samsung
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/modalias
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/modalias
 Lines: 1
 pci:v00001002d0000687Fsv00001043sd000004C4bc03sc00i00
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/msi_bus
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/msi_bus
 Lines: 1
 1
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/numa_node
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/numa_node
 Lines: 1
 -1
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pcie_bw
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pcie_bw
 Lines: 1
 6641 815 256
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pcie_replay_count
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pcie_replay_count
 Lines: 1
 0
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/power_dpm_force_performance_level
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/power_dpm_force_performance_level
 Lines: 1
 manual
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/power_dpm_state
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/power_dpm_state
 Lines: 1
 performance
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/power_state
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/power_state
 Lines: 1
 D0
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_cur_state
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_cur_state
 Lines: 1
 1
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_dpm_dcefclk
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_dpm_dcefclk
 Lines: 5
 0: 600Mhz *
 1: 720Mhz 
@@ -4727,7 +4730,7 @@ Lines: 5
 4: 900Mhz 
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_dpm_mclk
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_dpm_mclk
 Lines: 4
 0: 167Mhz *
 1: 500Mhz 
@@ -4735,13 +4738,13 @@ Lines: 4
 3: 945Mhz 
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_dpm_pcie
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_dpm_pcie
 Lines: 2
 0: 8.0GT/s, x16 
 1: 8.0GT/s, x16 *
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_dpm_sclk
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_dpm_sclk
 Lines: 8
 0: 852Mhz *
 1: 991Mhz 
@@ -4753,7 +4756,7 @@ Lines: 8
 7: 1630Mhz 
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_dpm_socclk
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_dpm_socclk
 Lines: 8
 0: 600Mhz 
 1: 720Mhz *
@@ -4765,7 +4768,7 @@ Lines: 8
 7: 1107Mhz 
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_features
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_features
 Lines: 32
 Current ppfeatures: 0x0000000019a1ff4f
 FEATURES            BITMASK                ENABLEMENT
@@ -4801,24 +4804,24 @@ ACG                 0x0000000010000000      Y
 PCC_LIMIT           0x0000000020000000      N
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_force_state
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_force_state
 Lines: 1
 
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_mclk_od
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_mclk_od
 Lines: 1
 0
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_num_states
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_num_states
 Lines: 3
 states: 2
 0 boot
 1 performance
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_od_clk_voltage
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_od_clk_voltage
 Lines: 18
 OD_SCLK:
 0:        852Mhz        800mV
@@ -4840,7 +4843,7 @@ MCLK:     167MHz       1500MHz
 VDDC:     800mV        1200mV
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_power_profile_mode
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_power_profile_mode
 Lines: 8
 NUM        MODE_NAME BUSY_SET_POINT FPS USE_RLC_BUSY MIN_ACTIVE_LEVEL
   0 BOOTUP_DEFAULT :             70  60          0              0
@@ -4852,22 +4855,22 @@ NUM        MODE_NAME BUSY_SET_POINT FPS USE_RLC_BUSY MIN_ACTIVE_LEVEL
   6         CUSTOM :              0   0          0              0
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/pp_sclk_od
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/pp_sclk_od
 Lines: 1
 0
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/product_name
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/product_name
 Lines: 1
 
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/product_number
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/product_number
 Lines: 1
 
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/resource
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/resource
 Lines: 13
 0x0000007c00000000 0x0000007dffffffff 0x000000000014220c
 0x0000000000000000 0x0000000000000000 0x0000000000000000
@@ -4884,32 +4887,32 @@ Lines: 13
 0x0000000000000000 0x0000000000000000 0x0000000000000000
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/revision
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/revision
 Lines: 1
 0xc1
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/serial_number
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/serial_number
 Lines: 1
 
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/subsystem_device
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/subsystem_device
 Lines: 1
 0x04c4
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/subsystem_vendor
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/subsystem_vendor
 Lines: 1
 0x1043
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/thermal_throttling_logging
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/thermal_throttling_logging
 Lines: 1
 0000:09:00.0: thermal throttling logging enabled, with interval 60 seconds
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/uevent
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/uevent
 Lines: 6
 DRIVER=amdgpu
 PCI_CLASS=30000
@@ -4919,17 +4922,17 @@ PCI_SLOT_NAME=0000:09:00.0
 MODALIAS=pci:v00001002d0000687Fsv00001043sd000004C4bc03sc00i00
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/unique_id
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/unique_id
 Lines: 1
 0123456789abcdef
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/vbios_version
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/vbios_version
 Lines: 1
 115-D050PIL-100
 Mode: 444
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Path: fixtures/sys/class/drm/card0/device/vendor
+Path: fixtures/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A10:00/vendor
 Lines: 1
 0x1002
 Mode: 444
